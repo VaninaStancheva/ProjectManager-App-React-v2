@@ -1,0 +1,6 @@
+.headerSignIn {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #354052;
+}
