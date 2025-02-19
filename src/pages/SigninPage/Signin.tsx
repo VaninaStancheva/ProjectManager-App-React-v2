@@ -4,7 +4,7 @@ import SignInForm from "../../components/signInForm/SignInForm.tsx";
 
 export default function SignInPage() {
     return (
-        <div className="signinPage">
+        <div className="signInPage">
             <HeaderSignIn />
             <SignInForm />
         </div>
