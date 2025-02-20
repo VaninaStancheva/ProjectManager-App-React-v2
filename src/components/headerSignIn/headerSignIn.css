@@ -10,12 +10,15 @@
 }
 
 .title {
-    font-family: "Source Code Pro", serif;
+    font-family: "Varela", serif;
     font-weight: bold;
+    font-style: normal;
     font-size: 70px;
 }
 
 .text {
-    font-family: "Source Code Pro", serif;
+    font-family: "Varela", serif;
+    font-weight: bold;
+    font-style: normal;
     font-size: 30px;
 }

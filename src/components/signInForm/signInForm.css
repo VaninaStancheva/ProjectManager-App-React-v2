@@ -4,4 +4,32 @@
     justify-content: center;
     align-items: center;
     width: 65%;
+    font-family: "Varela", serif;
+    font-weight: lighter;
+    color: #585858;
+    font-size: 50px;
+}
+
+input {
+    width: 25rem;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+.inputName {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.inputPassword {
+    margin-bottom: 50px;
+}
+
+.BtnSignIn {
+    width: 20rem;
+    height: 65px;
+    background: #47BAC1 0% 0% no-repeat padding-box;
+    border-radius: 33px;
+    color: #fff;
 }
