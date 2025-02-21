@@ -3,22 +3,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 35%;
+    width: 100%;
     background-color: #354052;
     text-align: center;
     color: #FFFFFF;
 }
 
 .title {
-    font-family: "Varela", serif;
+    font-family: "Josefin Sans", serif;
     font-weight: bold;
     font-style: normal;
     font-size: 70px;
 }
 
 .text {
-    font-family: "Varela", serif;
+    font-family: "Josefin Sans", serif;
     font-weight: bold;
     font-style: normal;
     font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .headerSignIn{
+        display: none;
+    }
 }

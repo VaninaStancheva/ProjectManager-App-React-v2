@@ -3,17 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 65%;
-    font-family: "Varela", serif;
+    width: 100%;
+    font-family: "Josefin Sans", serif;
     font-weight: lighter;
     color: #585858;
     font-size: 50px;
+    text-align: center;
 }
 
 input {
     width: 25rem;
     height: 50px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0 0 no-repeat padding-box;
     border: 1px solid #707070;
 }
 
@@ -29,7 +30,15 @@ input {
 .BtnSignIn {
     width: 20rem;
     height: 65px;
-    background: #47BAC1 0% 0% no-repeat padding-box;
+    background: #47BAC1 0 0 no-repeat padding-box;
     border-radius: 33px;
+    border: none;
     color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+   .signInForm {
+       font-size: 30px;
+
+   }
 }
