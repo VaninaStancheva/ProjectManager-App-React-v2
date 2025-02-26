@@ -11,19 +11,53 @@
     color: #C1C5CA;
 }
 
+.nav-bar-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
 .nav-title {
     font-size: 22px;
 }
 
 .nav-bar-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
     list-style: none;
-    font-size: 16px;
-}
-
-.nav-item {
+    font-size: 18px;
     width: 100%;
 }
 
-.nav-item:hover {
+.nav-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.nav-bar-list-item-container:hover {
     background-color: #2D3646;
+    width: 17rem;
+}
+
+.nav-bar-list-item-container:active {
+    background-color: #2D3646;
+    width: 17rem;
+}
+
+.nav-bar-list-item-container {
+    display: flex;
+    flex-direction: row;
+    width: 17rem;
+    align-items: baseline;
+    padding-left: 1rem;
+}
+
+.projectsIcon {
+    font-size: 16px;
+    color: #C1C5CA;
+    padding-right: 1rem;
 }
