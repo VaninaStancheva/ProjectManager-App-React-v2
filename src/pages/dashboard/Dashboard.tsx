@@ -4,7 +4,7 @@ import {Link} from "react-router";
 
 export default function Dashboard() {
     return (
-        <Link to="/dashboard">
+        <Link to="/dashboard" style={{textDecoration: "none", color: "inherit"}}>
             <NavBar />
         </Link>
     )
