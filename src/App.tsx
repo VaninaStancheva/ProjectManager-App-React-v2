@@ -5,16 +5,17 @@ import Dashboard from "./pages/dashboard/Dashboard.tsx";
 
 function App() {
 
-  return (
+    return (
         <Router>
             <Routes>
-                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/dashboard" element={<Dashboard/>}/>
             </Routes>
-            <SignInPage />
-
+            <Routes>
+                <Route exact path="/" element={<SignInPage/>}/>
+            </Routes>
         </Router>
 
-  )
+)
 }
 
 export default App

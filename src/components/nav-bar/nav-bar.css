@@ -1,0 +1,29 @@
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #354052;
+    width: 18rem;
+    height: 100vh;
+    font-family: "Josefin Sans", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #C1C5CA;
+}
+
+.nav-title {
+    font-size: 22px;
+}
+
+.nav-bar-list {
+    list-style: none;
+    font-size: 16px;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-item:hover {
+    background-color: #2D3646;
+}
