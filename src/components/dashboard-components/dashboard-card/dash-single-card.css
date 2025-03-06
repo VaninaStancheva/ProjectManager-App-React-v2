@@ -1,3 +1,7 @@
+.dashboard-card {
+    margin-top: 2rem;
+}
+
 .dashboard-card-container {
     width: 22rem;
     height: 150px;
@@ -6,6 +10,7 @@
     align-items: center;
     box-shadow: 0 0 6px #0000004D;
     background: #FFFFFF 0 0 no-repeat padding-box;
+    margin-top: 2rem;
 }
 
 .img {
