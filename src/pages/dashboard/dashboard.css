@@ -1,0 +1,11 @@
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.createBtn {
+    position: absolute;
+    top: 260px;
+    right: 3rem;
+}
