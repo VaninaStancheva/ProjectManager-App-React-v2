@@ -1,6 +1,7 @@
 import './nav-bar.css';
 import ic_polymer_24px from '../../assets/ic_polymer_24px.svg';
 
+
 export default function NavBar() {
     return (
         <nav className="nav-bar">
