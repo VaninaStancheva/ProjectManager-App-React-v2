@@ -9,3 +9,15 @@
     top: 260px;
     right: 3rem;
 }
+
+.dashboard-title {
+    font-family: "Josefin Sans", serif;
+    font-weight: bold;
+    color: #585858;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.dashboard-card {
+    margin-bottom: 40px;
+}
