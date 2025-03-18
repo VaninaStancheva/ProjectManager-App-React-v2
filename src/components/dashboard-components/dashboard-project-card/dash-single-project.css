@@ -1,13 +1,14 @@
 .dashboard-projectCard-container {
     margin-top: 2rem;
     width: 22rem;
-    height: 150px;
+    height: 355px;
     display: flex;
     justify-content: center;
     gap: 2rem;
     align-items: center;
     box-shadow: 0 0 6px #0000004D;
     background: #FFFFFF 0 0 no-repeat padding-box;
+    padding: 20px;
 }
 
 .dashboard-projectCard-title {
