@@ -1,24 +1,25 @@
 .dashboard-projectCard-container {
-    margin-top: 2rem;
-    width: 22rem;
-    height: 355px;
+    width: 20rem;
+    height: 315px;
     display: flex;
-    justify-content: center;
     gap: 2rem;
-    align-items: center;
     box-shadow: 0 0 6px #0000004D;
     background: #FFFFFF 0 0 no-repeat padding-box;
-    padding: 20px;
+    padding: 20px 20px;
 }
 
 .dashboard-projectCard-title {
     font-family: "Josefin Sans", serif;
     color: #585858;
     font-size: 22px;
+    margin: 0;
+    font-weight: normal;
 }
 
 .dashboard-projectCard-description {
     font-family: "Josefin Sans", serif;
     font-size: 16px;
     color: #585858;
+    margin-top: 30px;
+    line-height: 1.5;
 }

@@ -14,12 +14,19 @@ export default function Dashboard() {
                 <NavBar/>
             </Link>
             <div className="dashboard-content">
+                <h2 className="dashboard-title">Dashboard</h2>
                 <div className="dashboard-card">
-                    <h2 className="dashboard-title">Dashboard</h2>
+                    <DashboardSingleCard/>
+                    <DashboardSingleCard/>
+                    <DashboardSingleCard/>
                     <DashboardSingleCard/>
                 </div>
+                <h2 className="dashboard-title">Projects</h2>
                 <div className="dashboard-project-card">
-                    <h2 className="dashboard-title">Projects</h2>
+                    <DashboardProjectCard/>
+                    <DashboardProjectCard/>
+                    <DashboardProjectCard/>
+                    <DashboardProjectCard/>
                     <DashboardProjectCard/>
                 </div>
             </div>

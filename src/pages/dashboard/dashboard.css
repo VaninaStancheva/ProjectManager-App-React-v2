@@ -1,13 +1,17 @@
 .dashboard {
     display: flex;
-    justify-content: space-between;
     position: relative;
 }
 
 .createBtn {
+    width: 16rem !important;
     position: absolute;
-    top: 260px;
-    right: 3rem;
+    top: 320px;
+}
+
+.dashboard-content {
+    width: 80%;
+    margin-left: 2rem;
 }
 
 .dashboard-title {
@@ -20,4 +24,13 @@
 
 .dashboard-card {
     margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.dashboard-project-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
 }
