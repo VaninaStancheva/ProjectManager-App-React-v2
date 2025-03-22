@@ -1,5 +1,5 @@
 .dashboard-projectCard-container {
-    width: 20rem;
+    width: 18rem;
     height: 315px;
     display: flex;
     gap: 2rem;
@@ -21,5 +21,5 @@
     font-size: 16px;
     color: #585858;
     margin-top: 30px;
-    line-height: 1.5;
+    line-height: 1.2;
 }

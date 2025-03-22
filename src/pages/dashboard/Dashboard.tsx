@@ -21,8 +21,19 @@ export default function Dashboard() {
                     <DashboardSingleCard/>
                     <DashboardSingleCard/>
                 </div>
-                <h2 className="dashboard-title">Projects</h2>
+                <div className="dashboard-title-button">
+                    <h2 className="dashboard-title">Projects</h2>
+                    <Fab className="createBtn" variant="extended" size="medium" color="primary" aria-label="add">
+                        <AddIcon/>
+                        Create Project
+                    </Fab>
+                </div>
+
                 <div className="dashboard-project-card">
+                    <DashboardProjectCard/>
+                    <DashboardProjectCard/>
+                    <DashboardProjectCard/>
+                    <DashboardProjectCard/>
                     <DashboardProjectCard/>
                     <DashboardProjectCard/>
                     <DashboardProjectCard/>
@@ -30,11 +41,6 @@ export default function Dashboard() {
                     <DashboardProjectCard/>
                 </div>
             </div>
-            <Fab className="createBtn" variant="extended" size="medium" color="primary" aria-label="add">
-                <AddIcon/>
-                Create Project
-            </Fab>
-
         </div>
     )
 }

@@ -1,12 +1,9 @@
 .dashboard {
     display: flex;
-    position: relative;
 }
 
 .createBtn {
     width: 16rem !important;
-    position: absolute;
-    top: 320px;
 }
 
 .dashboard-content {
@@ -30,7 +27,15 @@
 }
 
 .dashboard-project-card {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    width: 20%;
+}
+
+.dashboard-title-button {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    align-items: center;
 }
