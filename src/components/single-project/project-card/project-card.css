@@ -1,0 +1,26 @@
+.projectCard-container {
+    width: 68rem;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px #0000004D;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    padding: 20px 390px 20px 20px;
+    box-sizing: border-box;
+}
+
+.projectCard-title {
+    font-family: "Josefin Sans", serif;
+    color: #585858;
+    font-size: 22px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.projectCard-description {
+    font-family: "Josefin Sans", serif;
+    font-size: 16px;
+    color: #585858;
+    margin-top: 30px;
+    line-height: 1.2;
+}
