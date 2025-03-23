@@ -23,3 +23,27 @@
     margin-top: 30px;
     line-height: 1.2;
 }
+
+.project-titleIcons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-container {
+    display: flex;
+    gap: .5rem;
+}
+
+.icons {
+    color: #909090;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.blue:hover {
+    color: #47BAC1;
+}
+
+.red:hover {
+    color: tomato;
+}

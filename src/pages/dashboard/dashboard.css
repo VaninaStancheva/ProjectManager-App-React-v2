@@ -1,3 +1,11 @@
 .dashboard {
     display: flex;
 }
+
+.dashboard-home {
+    display: none;
+}
+
+.dashboard-singleProject-details {
+    display: flex;
+}
